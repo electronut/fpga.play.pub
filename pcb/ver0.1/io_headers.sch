@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title "fpga.play"
-Date "2020-06-19"
+Date "2020-09-04"
 Rev "0.1"
 Comp "Electronut Labs"
 Comment1 "electronut.in"
@@ -13,25 +13,25 @@ Comment2 "Drawn by Sivaprakash"
 Comment3 "Designed by Mahesh Venkitachalam"
 Comment4 ""
 $EndDescr
-Text GLabel 6050 5500 2    39   BiDi ~ 0
+Text GLabel 6000 5400 2    39   BiDi ~ 0
 CDONE
-Text GLabel 5000 5400 0    39   BiDi ~ 0
+Text GLabel 6000 5500 2    39   BiDi ~ 0
 ~CRESET_B
 $Comp
-L power:GND #PWR?
+L fpga-play-rescue:GND-power #PWR?
 U 1 1 5F0F3575
-P 5850 5700
+P 6450 5200
 AR Path="/5EDD6D16/5F0F3575" Ref="#PWR?"  Part="1" 
 AR Path="/5EDD6D56/5F0F3575" Ref="#PWR0153"  Part="1" 
-F 0 "#PWR0153" H 5850 5450 50  0001 C CNN
-F 1 "GND" H 5855 5527 50  0000 C CNN
-F 2 "" H 5850 5700 50  0001 C CNN
-F 3 "" H 5850 5700 50  0001 C CNN
-	1    5850 5700
+F 0 "#PWR0153" H 6450 4950 50  0001 C CNN
+F 1 "GND" H 6455 5027 50  0000 C CNN
+F 2 "" H 6450 5200 50  0001 C CNN
+F 3 "" H 6450 5200 50  0001 C CNN
+	1    6450 5200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
+L fpga-play-rescue:Conn_02x05_Odd_Even-Connector_Generic J2
 U 1 1 5F0F4B8A
 P 5450 5400
 F 0 "J2" H 5500 5817 50  0000 C CNN
@@ -41,12 +41,6 @@ F 3 "~" H 5450 5400 50  0001 C CNN
 	1    5450 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 5600 5850 5600
-Wire Wire Line
-	5850 5600 5850 5700
-Wire Wire Line
-	5750 5500 6050 5500
 Wire Wire Line
 	5000 5200 5250 5200
 Wire Wire Line
@@ -58,246 +52,81 @@ Wire Wire Line
 Wire Wire Line
 	5250 5600 5000 5600
 Wire Wire Line
-	6000 5300 5750 5300
-Wire Wire Line
 	5750 5400 6000 5400
+Wire Wire Line
+	4150 3400 4600 3400
+Wire Wire Line
+	6100 1900 6650 1900
+Wire Wire Line
+	6100 2000 6650 2000
+Wire Wire Line
+	6100 2100 6650 2100
+Wire Wire Line
+	6100 2200 6650 2200
+Wire Wire Line
+	6100 2300 6650 2300
+Wire Wire Line
+	6100 2400 6650 2400
+Wire Wire Line
+	6100 2600 6650 2600
+Wire Wire Line
+	6100 2700 6650 2700
+Wire Wire Line
+	6100 2800 6650 2800
+Wire Wire Line
+	6100 2900 6650 2900
+Wire Wire Line
+	6100 3000 6650 3000
 $Comp
-L Connector_Generic:Conn_01x18 J3
-U 1 1 5F12AC79
-P 7100 2700
-F 0 "J3" H 7050 3600 50  0000 L CNN
-F 1 "IO Header" V 7200 2450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 7100 2700 50  0001 C CNN
-F 3 "~" H 7100 2700 50  0001 C CNN
-	1    7100 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x18 J1
-U 1 1 5F13127F
-P 4050 2700
-F 0 "J1" H 4000 3600 50  0000 L CNN
-F 1 "IO Header" V 4150 2450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 4050 2700 50  0001 C CNN
-F 3 "~" H 4050 2700 50  0001 C CNN
-	1    4050 2700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1900 4800 1900
-Wire Wire Line
-	4250 2000 4800 2000
-Wire Wire Line
-	4250 2100 4800 2100
-Wire Wire Line
-	4250 2200 4800 2200
-Wire Wire Line
-	4250 2300 4800 2300
-Wire Wire Line
-	4250 2400 4800 2400
-Wire Wire Line
-	4250 2500 4800 2500
-Wire Wire Line
-	4250 2600 4800 2600
-Wire Wire Line
-	4250 2700 4800 2700
-Wire Wire Line
-	4250 2800 4800 2800
-Wire Wire Line
-	4250 2900 4800 2900
-Wire Wire Line
-	4250 3000 4800 3000
-Wire Wire Line
-	4250 3100 4800 3100
-Wire Wire Line
-	4250 3200 4800 3200
-Wire Wire Line
-	4250 3300 4800 3300
-Wire Wire Line
-	4250 3400 4800 3400
-Wire Wire Line
-	4250 3600 4800 3600
-Wire Wire Line
-	6350 1900 6900 1900
-Wire Wire Line
-	6350 2000 6900 2000
-Wire Wire Line
-	6350 2100 6900 2100
-Wire Wire Line
-	6350 2200 6900 2200
-Wire Wire Line
-	6350 2300 6900 2300
-Wire Wire Line
-	6350 2400 6900 2400
-Wire Wire Line
-	6350 2500 6900 2500
-Wire Wire Line
-	6350 2600 6900 2600
-Wire Wire Line
-	6350 2800 6900 2800
-Wire Wire Line
-	6350 2900 6900 2900
-Wire Wire Line
-	6350 3000 6900 3000
-Wire Wire Line
-	6350 3100 6900 3100
-Wire Wire Line
-	6350 3200 6900 3200
-Wire Wire Line
-	6350 3500 6900 3500
-Wire Wire Line
-	6350 3600 6900 3600
-Text GLabel 4800 1900 2    39   BiDi ~ 0
-IOB_6A
-Text GLabel 4800 2000 2    39   BiDi ~ 0
-IOB_9B
-Text GLabel 4800 2100 2    39   BiDi ~ 0
-IOT_8A
-Text GLabel 4800 2200 2    39   BiDi ~ 0
-IOT_13B
-Text GLabel 4800 2300 2    39   BiDi ~ 0
-IOB_16A
-Text GLabel 4800 2400 2    39   BiDi ~ 0
-IOB_18A
-Text GLabel 4800 2500 2    39   BiDi ~ 0
-IOB_20A
-Text GLabel 4800 2700 2    39   BiDi ~ 0
-IOB_31B
-Text GLabel 4800 2800 2    39   BiDi ~ 0
-IOB_29B
-Text GLabel 4800 2900 2    39   BiDi ~ 0
-IOB_25B_G3
-Text GLabel 4800 3000 2    39   BiDi ~ 0
-IOB_23B
-Text GLabel 4800 3100 2    39   BiDi ~ 0
-IOT_37A
-Text GLabel 6350 2900 0    39   BiDi ~ 0
-IOT_48B
-Text GLabel 6350 2800 0    39   BiDi ~ 0
-IOT_45A_G1
-Text GLabel 6350 2700 0    39   BiDi ~ 0
-IOT_50B
-Text GLabel 6350 2600 0    39   BiDi ~ 0
-RGB2
-Text GLabel 6350 2500 0    39   BiDi ~ 0
-IOT_51A
-Text GLabel 6350 2400 0    39   BiDi ~ 0
-IOT_49A
-Text GLabel 6350 2300 0    39   BiDi ~ 0
-IOB_3B_G6
-Text GLabel 6350 2200 0    39   BiDi ~ 0
-IOB_5B
-Text GLabel 6350 2100 0    39   BiDi ~ 0
-IOB_0A
-Text GLabel 6350 2000 0    39   BiDi ~ 0
-IOB_2A
-Text GLabel 6350 1900 0    39   BiDi ~ 0
-IOB_4A
-Text GLabel 6350 3000 0    39   BiDi ~ 0
-IOT_44B
-Text GLabel 6350 3100 0    39   BiDi ~ 0
-IOT_43A
-Text GLabel 6350 3200 0    39   BiDi ~ 0
-IOT_42B
-Text GLabel 6350 3300 0    39   BiDi ~ 0
-IOT_41A
-Text GLabel 4800 3400 2    39   BiDi ~ 0
-IOT_38B
-Text GLabel 4800 3300 2    39   BiDi ~ 0
-IOT_39A
-Text GLabel 4800 3200 2    39   BiDi ~ 0
-IOT_36B
-Wire Wire Line
-	4800 3600 4800 3700
-Wire Wire Line
-	6350 3600 6350 3700
-$Comp
-L power:GND #PWR?
+L fpga-play-rescue:GND-power #PWR?
 U 1 1 5F233D69
-P 4800 3700
+P 4450 3500
 AR Path="/5EDD6D16/5F233D69" Ref="#PWR?"  Part="1" 
 AR Path="/5EDD6D56/5F233D69" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR0155" H 4800 3450 50  0001 C CNN
-F 1 "GND" H 4805 3527 50  0000 C CNN
-F 2 "" H 4800 3700 50  0001 C CNN
-F 3 "" H 4800 3700 50  0001 C CNN
-	1    4800 3700
+F 0 "#PWR0155" H 4450 3250 50  0001 C CNN
+F 1 "GND" H 4455 3327 50  0000 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "" H 4450 3500 50  0001 C CNN
+	1    4450 3500
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 3100 6100 3100
+Wire Wire Line
+	6100 2500 6650 2500
 $Comp
-L power:GND #PWR?
-U 1 1 5F23472D
-P 6350 3700
-AR Path="/5EDD6D16/5F23472D" Ref="#PWR?"  Part="1" 
-AR Path="/5EDD6D56/5F23472D" Ref="#PWR0156"  Part="1" 
-F 0 "#PWR0156" H 6350 3450 50  0001 C CNN
-F 1 "GND" H 6355 3527 50  0000 C CNN
-F 2 "" H 6350 3700 50  0001 C CNN
-F 3 "" H 6350 3700 50  0001 C CNN
-	1    6350 3700
-	-1   0    0    -1  
-$EndComp
-Text GLabel 4800 2600 2    39   BiDi ~ 0
-IOB_22A
-Wire Wire Line
-	6900 3300 6350 3300
-Wire Wire Line
-	6350 2700 6900 2700
-Wire Wire Line
-	6900 3400 5900 3400
-Wire Wire Line
-	6350 3500 6350 3600
-Connection ~ 6350 3600
-$Comp
-L power:+3.3V #PWR0154
+L fpga-play-rescue:+3.3V-power #PWR0154
 U 1 1 5F0F42C4
-P 5900 3400
-F 0 "#PWR0154" H 5900 3250 50  0001 C CNN
-F 1 "+3.3V" H 5915 3573 50  0000 C CNN
-F 2 "" H 5900 3400 50  0001 C CNN
-F 3 "" H 5900 3400 50  0001 C CNN
-	1    5900 3400
+P 4600 3400
+F 0 "#PWR0154" H 4600 3250 50  0001 C CNN
+F 1 "+3.3V" H 4600 3550 50  0000 C CNN
+F 2 "" H 4600 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0001 C CNN
+	1    4600 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3500 5300 3500
-Wire Wire Line
-	5750 5200 6000 5200
 $Comp
-L power:+3.3V #PWR0157
+L fpga-play-rescue:+3.3V-power #PWR0157
 U 1 1 5F0F8159
-P 6000 5200
-F 0 "#PWR0157" H 6000 5050 50  0001 C CNN
-F 1 "+3.3V" H 6015 5373 50  0000 C CNN
-F 2 "" H 6000 5200 50  0001 C CNN
-F 3 "" H 6000 5200 50  0001 C CNN
-	1    6000 5200
+P 6100 5100
+F 0 "#PWR0157" H 6100 4950 50  0001 C CNN
+F 1 "+3.3V" H 6115 5273 50  0000 C CNN
+F 2 "" H 6100 5100 50  0001 C CNN
+F 3 "" H 6100 5100 50  0001 C CNN
+	1    6100 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 5F1C9599
-P 5300 3500
-AR Path="/5EDD6CE1/5F1C9599" Ref="#PWR?"  Part="1" 
-AR Path="/5EDD6D56/5F1C9599" Ref="#PWR0172"  Part="1" 
-F 0 "#PWR0172" H 5300 3350 50  0001 C CNN
-F 1 "VDD" H 5300 3650 50  0000 C CNN
-F 2 "" H 5300 3500 50  0001 C CNN
-F 3 "" H 5300 3500 50  0001 C CNN
-	1    5300 3500
-	1    0    0    -1  
-$EndComp
-Text GLabel 5000 5500 0    39   BiDi ~ 0
-Flash_SCK(PSRAM_SCK)
-Text GLabel 6000 5400 2    39   BiDi ~ 0
-Flash_~HOLD~(PSRAM_SIO3)
-Text GLabel 6000 5300 2    39   BiDi ~ 0
-Flash_~WP~(PSRAM_SIO2)
-Text GLabel 5000 5200 0    39   BiDi ~ 0
-Flash_MOSI(PSRAM_SIO0)
-Text GLabel 5000 5600 0    39   BiDi ~ 0
-Flash_MISO(PSRAM_SIO1)
 Text GLabel 5000 5300 0    39   BiDi ~ 0
+Flash_SCK(PSRAM_SCK)
+Text GLabel 5000 5600 0    39   BiDi ~ 0
+Flash_~HOLD~(PSRAM_SIO3)
+Text GLabel 6000 5600 2    39   BiDi ~ 0
+Flash_~WP~(PSRAM_SIO2)
+Text GLabel 5000 5500 0    39   BiDi ~ 0
+Flash_MOSI(PSRAM_SIO0)
+Text GLabel 5000 5400 0    39   BiDi ~ 0
+Flash_MISO(PSRAM_SIO1)
+Text GLabel 5000 5200 0    39   BiDi ~ 0
 Flash_SS
 Text Notes 4750 1500 0    157  Italic 31
 GPIO Header
@@ -479,4 +308,176 @@ D7 4F F3 4D 11 E4 7D FB ED B7 77 DC 71 87 11 35 13 42 0E 1D 3A 44 4C 1A A2 08 32
 F9 7F BF 3F B7 9E E0 84 4D 4F 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 4700 2700 2    39   BiDi ~ 0
+IOT_42B
+Text GLabel 4700 2800 2    39   BiDi ~ 0
+IOT_43A
+Text GLabel 6100 1900 0    39   BiDi ~ 0
+IOB_4A
+Text GLabel 6100 2000 0    39   BiDi ~ 0
+IOB_2A
+Text GLabel 6100 2100 0    39   BiDi ~ 0
+IOB_0A
+Text GLabel 6100 2200 0    39   BiDi ~ 0
+IOB_5B
+Text GLabel 6100 2300 0    39   BiDi ~ 0
+IOB_3B_G6
+Text GLabel 6100 2400 0    39   BiDi ~ 0
+IOT_49A
+Text GLabel 6100 2600 0    39   BiDi ~ 0
+RGB2
+Text GLabel 6100 2700 0    39   BiDi ~ 0
+RGB1
+Text GLabel 6100 2900 0    39   BiDi ~ 0
+IOT_45A_G1
+Text GLabel 6100 3000 0    39   BiDi ~ 0
+IOT_48B
+Text GLabel 6100 3100 0    39   BiDi ~ 0
+IOT_46B_G0
+Text GLabel 6100 3200 0    39   BiDi ~ 0
+IOT_44B
+$Comp
+L fpga-play-rescue:VCC-power #PWR017
+U 1 1 5F4CA8F2
+P 6200 3400
+F 0 "#PWR017" H 6200 3250 50  0001 C CNN
+F 1 "VCC" H 6200 3550 50  0000 C CNN
+F 2 "" H 6200 3400 50  0001 C CNN
+F 3 "" H 6200 3400 50  0001 C CNN
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L fpga-play-rescue:GND-power #PWR?
+U 1 1 5F23472D
+P 6350 3500
+AR Path="/5EDD6D16/5F23472D" Ref="#PWR?"  Part="1" 
+AR Path="/5EDD6D56/5F23472D" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 6350 3250 50  0001 C CNN
+F 1 "GND" H 6355 3327 50  0000 C CNN
+F 2 "" H 6350 3500 50  0001 C CNN
+F 3 "" H 6350 3500 50  0001 C CNN
+	1    6350 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L fpga-play-rescue:Conn_01x16-Connector_Generic J3
+U 1 1 5F4DA1BB
+P 6850 2600
+AR Path="/5F4DA1BB" Ref="J3"  Part="1" 
+AR Path="/5EDD6D56/5F4DA1BB" Ref="J3"  Part="1" 
+F 0 "J3" H 6800 3400 50  0000 L CNN
+F 1 "IO Header" V 6950 2400 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 6850 2600 50  0001 C CNN
+F 3 "~" H 6850 2600 50  0001 C CNN
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2600 2    39   BiDi ~ 0
+IOT_41A
+Text GLabel 4700 2500 2    39   BiDi ~ 0
+IOT_38B
+Text GLabel 4700 2400 2    39   BiDi ~ 0
+IOT_39A
+Text GLabel 4700 2300 2    39   BiDi ~ 0
+IOT_36B
+Text GLabel 4700 2200 2    39   BiDi ~ 0
+IOT_37A
+Text GLabel 4700 3100 2    39   BiDi ~ 0
+IOB_25B_G3
+Text GLabel 4700 3000 2    39   BiDi ~ 0
+IOB_29B
+Text GLabel 4700 2100 2    39   BiDi ~ 0
+IOT_8A
+Text GLabel 4700 2000 2    39   BiDi ~ 0
+IOB_9B
+Text GLabel 4700 1900 2    39   BiDi ~ 0
+IOB_6A
+Wire Wire Line
+	4150 3200 4700 3200
+Wire Wire Line
+	4150 3100 4700 3100
+Wire Wire Line
+	4150 3000 4700 3000
+Wire Wire Line
+	4150 2900 4700 2900
+Wire Wire Line
+	4150 2800 4700 2800
+Wire Wire Line
+	4150 2700 4700 2700
+Wire Wire Line
+	4150 2600 4700 2600
+Wire Wire Line
+	4150 2500 4700 2500
+Wire Wire Line
+	4150 2400 4700 2400
+Wire Wire Line
+	4150 2300 4700 2300
+Wire Wire Line
+	4150 2200 4700 2200
+Wire Wire Line
+	4150 2100 4700 2100
+Wire Wire Line
+	4150 2000 4700 2000
+Wire Wire Line
+	4150 1900 4700 1900
+Wire Notes Line
+	3250 3950 7550 3950
+Wire Notes Line
+	7550 3950 7550 1000
+Wire Notes Line
+	7550 1000 3250 1000
+Wire Notes Line
+	3250 1000 3250 3950
+Wire Notes Line
+	3250 6200 7550 6200
+Wire Notes Line
+	7550 6200 7550 4250
+Wire Notes Line
+	7550 4250 3250 4250
+Wire Notes Line
+	3250 4250 3250 6200
+Text GLabel 6100 2800 0    39   BiDi ~ 0
+IOT_50B
+Text GLabel 6100 2500 0    39   BiDi ~ 0
+IOT_51A
+Wire Wire Line
+	4150 3300 4450 3300
+Wire Wire Line
+	6650 3200 6100 3200
+Wire Wire Line
+	4450 3500 4450 3300
+Wire Wire Line
+	6200 3400 6650 3400
+Wire Wire Line
+	6350 3500 6350 3300
+Wire Wire Line
+	6350 3300 6650 3300
+Text GLabel 4700 2900 2    39   BiDi ~ 0
+IOB_31B
+Text GLabel 4700 3200 2    39   BiDi ~ 0
+IOB_23B
+$Comp
+L fpga-play-rescue:Conn_01x16-Connector_Generic J1
+U 1 1 5F4D4B45
+P 3950 2600
+AR Path="/5F4D4B45" Ref="J1"  Part="1" 
+AR Path="/5EDD6D56/5F4D4B45" Ref="J1"  Part="1" 
+F 0 "J1" H 3950 3400 50  0000 C CNN
+F 1 "IO Header" V 4050 2600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 3950 2600 50  0001 C CNN
+F 3 "~" H 3950 2600 50  0001 C CNN
+	1    3950 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5200 6450 5200
+Wire Wire Line
+	6100 5100 6100 5300
+Wire Wire Line
+	5750 5300 6100 5300
+Wire Wire Line
+	6000 5500 5750 5500
+Wire Wire Line
+	5750 5600 6000 5600
 $EndSCHEMATC
