@@ -1,0 +1,808 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# fpga-play-rescue_+1V2-power
+#
+DEF fpga-play-rescue_+1V2-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+1V2-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V2 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_+1V8-power
+#
+DEF fpga-play-rescue_+1V8-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+1V8-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_+2V8-power
+#
+DEF fpga-play-rescue_+2V8-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+2V8-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +2V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_+3.3V-power
+#
+DEF fpga-play-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+3.3V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_+3V3-power
+#
+DEF fpga-play-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+3V3-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_+5V-power
+#
+DEF fpga-play-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_+5V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_629105136821-fpga-play
+#
+DEF fpga-play-rescue_629105136821-fpga-play J 0 40 Y Y 1 L N
+F0 "J" -200 420 50 H V L BNN
+F1 "fpga-play-rescue_629105136821-fpga-play" -200 -500 50 H V L BNN
+F2 "WE_629105136821" 0 0 50 H I L BNN
+F3 "P" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendations" 0 0 50 H I L BNN
+F5 "Wurth Electronics" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 -400 -200 400 N
+P 2 0 0 10 -200 400 200 400 N
+P 2 0 0 10 200 -400 -200 -400 N
+P 2 0 0 10 200 400 200 -400 N
+X VCC 1 -400 300 200 R 40 40 0 0 W
+X D- 2 -400 200 200 R 40 40 0 0 B
+X D+ 3 -400 100 200 R 40 40 0 0 B
+X IO 4 -400 0 200 R 40 40 0 0 P
+X GND 5 -400 -100 200 R 40 40 0 0 W
+X SHIELD S1 -400 -300 200 R 40 40 0 0 P
+X SHIELD S2 -400 -300 200 R 40 40 0 0 P
+X SHIELD S3 -400 -300 200 R 40 40 0 0 P
+X SHIELD S4 -400 -300 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_C_Small-Device
+#
+DEF fpga-play-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "fpga-play-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_Conn_01x16-Connector_Generic
+#
+DEF fpga-play-rescue_Conn_01x16-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "fpga-play-rescue_Conn_01x16-Connector_Generic" 0 -900 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 750 50 -850 1 1 10 f
+X Pin_1 1 -200 700 150 R 50 50 1 1 P
+X Pin_10 10 -200 -200 150 R 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 -200 -400 150 R 50 50 1 1 P
+X Pin_13 13 -200 -500 150 R 50 50 1 1 P
+X Pin_14 14 -200 -600 150 R 50 50 1 1 P
+X Pin_15 15 -200 -700 150 R 50 50 1 1 P
+X Pin_16 16 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 600 150 R 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 -200 400 150 R 50 50 1 1 P
+X Pin_5 5 -200 300 150 R 50 50 1 1 P
+X Pin_6 6 -200 200 150 R 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 -200 0 150 R 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_Conn_02x05_Odd_Even-Connector_Generic
+#
+DEF fpga-play-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "fpga-play-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_DSC6101CI1A-012.0000T-fpga-play
+#
+DEF fpga-play-rescue_DSC6101CI1A-012.0000T-fpga-play Y 0 40 Y Y 1 F N
+F0 "Y" -300 200 50 H V C CNN
+F1 "fpga-play-rescue_DSC6101CI1A-012.0000T-fpga-play" -400 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -700 100 -100 -300 0 1 0 N
+X EN 1 -400 200 100 D 50 50 1 1 I
+X GND 2 -800 -200 100 R 50 50 1 1 W
+X X1 3 0 -100 100 L 50 50 1 1 O
+X VDD 4 -800 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_D_Schottky_Small-Device
+#
+DEF fpga-play-rescue_D_Schottky_Small-Device D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "fpga-play-rescue_D_Schottky_Small-Device" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_D_Small-Device
+#
+DEF fpga-play-rescue_D_Small-Device D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "fpga-play-rescue_D_Small-Device" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_ESP-PSRAM64-fpga-play
+#
+DEF fpga-play-rescue_ESP-PSRAM64-fpga-play U 0 40 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "fpga-play-rescue_ESP-PSRAM64-fpga-play" 0 400 50 H V C CNN
+F2 "" -300 0 50 H I C CNN
+F3 "" -300 0 50 H I C CNN
+DRAW
+S -300 300 300 -400 0 1 0 f
+X ~CE 1 500 200 200 L 50 50 1 1 I
+X SO/SIO(1) 2 500 -100 200 L 50 50 1 1 B
+X SIO(2) 3 500 -200 200 L 50 50 1 1 B
+X VSS 4 -500 -300 200 R 50 50 1 1 W
+X SI/SIO(0) 5 500 0 200 L 50 50 1 1 B
+X SCLK 6 500 100 200 L 50 50 1 1 I
+X SIO(3) 7 500 -300 200 L 50 50 1 1 B
+X VCC 8 -500 200 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_Fiducial-Mechanical
+#
+DEF fpga-play-rescue_Fiducial-Mechanical FID 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "fpga-play-rescue_Fiducial-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_GND-power
+#
+DEF fpga-play-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "fpga-play-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_ICE40UP5K-SG48ITR50-fpga-play
+#
+DEF fpga-play-rescue_ICE40UP5K-SG48ITR50-fpga-play U 0 40 Y Y 1 L N
+F0 "U" 0 1700 50 H V L BNN
+F1 "fpga-play-rescue_ICE40UP5K-SG48ITR50-fpga-play" -902 -1922 50 H V L BNN
+F2 "QFN50P700X700X100-49N" 100 700 50 H I L BNN
+F3 "Lattice Semiconductor" 100 300 50 H I L BNN
+F4 "IPC-7351B" 100 300 50 H I L BNN
+F5 "1.4" 100 300 50 H I L BNN
+F6 "10381" 100 300 50 H I L BNN
+DRAW
+T 900 -250 -699 66 0 0 0 "BANK 0" Normal 0 L B
+T 900 250 601 66 0 0 0 "BANK 1" Normal 0 L B
+T 900 200 -1252 66 0 0 0 "BANK 2" Normal 0 L T
+S -900 1600 900 -1800 0 0 16 f
+P 2 0 0 10 -325 50 -200 50 N
+P 2 0 0 10 -200 -1650 -325 -1650 N
+P 2 0 0 10 -200 50 -200 -1650 N
+P 2 0 0 10 150 -1500 275 -1500 N
+P 2 0 0 10 150 -700 150 -1500 N
+P 2 0 0 10 150 -450 150 1350 N
+P 2 0 0 10 150 1350 275 1350 N
+P 2 0 0 10 275 -700 150 -700 N
+P 2 0 0 10 275 -450 150 -450 N
+X VCCIO_2 1 1100 -600 200 L 40 40 0 0 W
+X IOB_18A 10 1100 800 200 L 40 40 0 0 B
+X IOB_20A 11 1100 700 200 L 40 40 0 0 B
+X IOB_22A 12 1100 600 200 L 40 40 0 0 B
+X IOB_24A 13 1100 400 200 L 40 40 0 0 B
+X IOB_32A_SPI_SO 14 1100 -100 200 L 40 40 0 0 B
+X IOB_34A_SPI_SCK 15 1100 -300 200 L 40 40 0 0 B C
+X IOB_35B_SPI_SS 16 1100 -400 200 L 40 40 0 0 B
+X IOB_33B_SPI_SI 17 1100 -200 200 L 40 40 0 0 B
+X IOB_31B 18 1100 100 200 L 40 40 0 0 B
+X IOB_29B 19 1100 200 200 L 40 40 0 0 B
+X IOB_6A 2 1100 -1500 200 L 40 40 0 0 B
+X IOB_25B_G3 20 1100 300 200 L 40 40 0 0 B C
+X IOB_23B 21 1100 500 200 L 40 40 0 0 B
+X SPI_VCCIO_1 22 1100 1500 200 L 40 40 0 0 W
+X IOT_37A 23 -1100 0 200 R 40 40 0 0 B
+X VPP_2V5 24 -1100 500 200 R 40 40 0 0 P
+X IOT_36B 25 -1100 -100 200 R 40 40 0 0 B
+X IOT_39A 26 -1100 -300 200 R 40 40 0 0 B
+X IOT_38B 27 -1100 -200 200 R 40 40 0 0 B
+X IOT_41A 28 -1100 -400 200 R 40 40 0 0 B
+X VCCPLL 29 -1100 1000 200 R 40 40 0 0 P
+X IOB_9B 3 1100 -900 200 L 40 40 0 0 B
+X VCC 30 -1100 1400 200 R 40 40 0 0 W
+X IOT_42B 31 -1100 -500 200 R 40 40 0 0 B
+X IOT_43A 32 -1100 -600 200 R 40 40 0 0 B
+X VCCIO_0 33 -1100 200 200 R 40 40 0 0 P
+X IOT_44B 34 -1100 -700 200 R 40 40 0 0 B
+X IOT_46B_G0 35 -1100 -900 200 R 40 40 0 0 B C
+X IOT_48B 36 -1100 -1000 200 R 40 40 0 0 B
+X IOT_45A_G1 37 -1100 -800 200 R 40 40 0 0 B C
+X IOT_50B 38 -1100 -1200 200 R 40 40 0 0 B
+X RGB0 39 -1100 -1400 200 R 40 40 0 0 B
+X IOB_8A 4 1100 -800 200 L 40 40 0 0 B
+X RGB1 40 -1100 -1500 200 R 40 40 0 0 B
+X RGB2 41 -1100 -1600 200 R 40 40 0 0 B
+X IOT_51A 42 -1100 -1300 200 R 40 40 0 0 B
+X IOT_49A 43 -1100 -1100 200 R 40 40 0 0 B
+X IOB_3B_G6 44 1100 -1300 200 L 40 40 0 0 B C
+X IOB_5B 45 1100 -1100 200 L 40 40 0 0 B
+X IOB_0A 46 1100 -1400 200 L 40 40 0 0 B
+X IOB_2A 47 1100 -1200 200 L 40 40 0 0 B
+X IOB_4A 48 1100 -1000 200 L 40 40 0 0 B
+X VCC 5 -1100 1500 200 R 40 40 0 0 W
+X IOB_13B 6 1100 1000 200 L 40 40 0 0 B
+X CDONE 7 1100 1200 200 L 40 40 0 0 B
+X ~CRESET_B~ 8 1100 1300 200 L 40 40 0 0 I
+X IOB_16A 9 1100 900 200 L 40 40 0 0 B
+X GND EP 1100 -1700 200 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_Jumper_3_Bridged12-Jumper
+#
+DEF fpga-play-rescue_Jumper_3_Bridged12-Jumper JP 0 0 Y N 1 F N
+F0 "JP" -100 -100 50 H V C CNN
+F1 "fpga-play-rescue_Jumper_3_Bridged12-Jumper" 0 110 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged12*
+$ENDFPLIST
+DRAW
+A -65 -50 89 1282 518 0 1 0 N -120 20 -10 20
+C -130 0 20 0 0 0 N
+C 0 0 20 0 0 0 N
+C 130 0 20 0 0 0 N
+P 2 0 1 0 0 -50 0 -20 N
+X A 1 -250 0 100 R 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_LED_Small-Device
+#
+DEF fpga-play-rescue_LED_Small-Device D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "fpga-play-rescue_LED_Small-Device" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_MountingHole-Mechanical
+#
+DEF fpga-play-rescue_MountingHole-Mechanical H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "fpga-play-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_OV_2640-fpga-play
+#
+DEF fpga-play-rescue_OV_2640-fpga-play J 0 40 Y Y 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "fpga-play-rescue_OV_2640-fpga-play" 0 400 50 H V C CNN
+F2 "" -200 500 50 H I C CNN
+F3 "" -200 500 50 H I C CNN
+DRAW
+S -400 200 300 -2000 0 1 0 f
+X STROBE 1 500 100 200 L 50 50 1 1 I
+X DVDD 10 -600 -500 200 R 50 50 1 1 W
+X DOVDD 11 -600 -1100 200 R 50 50 1 1 W
+X D9 12 500 -1000 200 L 50 50 1 1 O
+X XCLK 13 500 -700 200 L 50 50 1 1 I
+X D8 14 500 -1100 200 L 50 50 1 1 O
+X DGND 15 -600 -1800 200 R 50 50 1 1 W
+X D7 16 500 -1200 200 L 50 50 1 1 O
+X PCLK 17 500 -800 200 L 50 50 1 1 O
+X D6 18 500 -1300 200 L 50 50 1 1 O
+X D2 19 500 -1400 200 L 50 50 1 1 O
+X DGND 2 -600 -1700 200 R 50 50 1 1 W
+X D5 20 500 -1500 200 L 50 50 1 1 O
+X D3 21 500 -1600 200 L 50 50 1 1 O
+X D4 22 500 -1700 200 L 50 50 1 1 O
+X D1 23 500 -1800 200 L 50 50 1 1 O
+X D0 24 500 -1900 200 L 50 50 1 1 O
+X STO_D 3 500 -100 200 L 50 50 1 1 B
+X AVDD 4 -600 100 200 R 50 50 1 1 W
+X SIO_C 5 500 -200 200 L 50 50 1 1 I
+X RESET 6 500 -300 200 L 50 50 1 1 I
+X VSYNC 7 500 -400 200 L 50 50 1 1 O
+X PWDN 8 500 -500 200 L 50 50 1 1 I
+X HREF 9 500 -600 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_PWR_FLAG-power
+#
+DEF fpga-play-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "fpga-play-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_Q_PMOS_GSD-Device
+#
+DEF fpga-play-rescue_Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "fpga-play-rescue_Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 110 0 1 10 N
+C 100 -70 10 0 1 0 F
+C 100 70 10 0 1 0 F
+P 2 0 1 0 10 0 -100 0 N
+P 2 0 1 10 10 75 10 -75 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 0 100 -100 100 0 30 0 N
+P 4 0 1 0 30 70 130 70 130 -70 30 -70 N
+P 4 0 1 0 90 0 50 15 50 -15 90 0 F
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X G 1 -200 0 100 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_R_Small-Device
+#
+DEF fpga-play-rescue_R_Small-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "fpga-play-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_SW_Push-Switch
+#
+DEF fpga-play-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "fpga-play-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_SolderJumper_2_Bridged-Jumper
+#
+DEF fpga-play-rescue_SolderJumper_2_Bridged-Jumper JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "fpga-play-rescue_SolderJumper_2_Bridged-Jumper" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+S -20 20 20 -20 0 1 0 F
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_USBLC6-2SC6-fpga-play
+#
+DEF fpga-play-rescue_USBLC6-2SC6-fpga-play D 0 40 Y N 1 L N
+F0 "D" -601 601 50 H V L BNN
+F1 "fpga-play-rescue_USBLC6-2SC6-fpga-play" -601 -601 50 H V L BNN
+F2 "SOT95P280X145-6N" 0 0 50 H I L BNN
+F3 "STMicroelectronics" 0 0 50 H I L BNN
+F4 "1.45mm" 0 0 50 H I L BNN
+F5 "5" 0 0 50 H I L BNN
+F6 "IPC-7351B" 0 0 50 H I L BNN
+DRAW
+C -500 0 10 0 0 10 N
+C 0 -300 10 0 0 10 N
+C 0 300 10 0 0 10 N
+C 500 0 10 0 0 10 N
+P 2 0 0 10 -600 -600 600 -600 N
+P 2 0 0 10 -600 600 -600 -600 N
+P 2 0 0 10 -500 -300 -300 -300 N
+P 2 0 0 10 -500 0 -600 0 N
+P 2 0 0 10 -500 0 -500 -300 N
+P 2 0 0 10 -500 0 0 0 N
+P 2 0 0 10 -500 300 -500 0 N
+P 2 0 0 10 -500 300 -300 300 N
+P 2 0 0 10 -300 -400 -300 -300 N
+P 2 0 0 10 -300 -300 -300 -200 N
+P 2 0 0 10 -300 -200 -200 -300 N
+P 2 0 0 10 -300 200 -300 300 N
+P 2 0 0 10 -300 300 -300 400 N
+P 2 0 0 10 -300 400 -200 300 N
+P 2 0 0 10 -200 -300 -300 -400 N
+P 2 0 0 10 -200 -300 -200 -400 N
+P 2 0 0 10 -200 -300 0 -300 N
+P 2 0 0 10 -200 -200 -200 -300 N
+P 2 0 0 10 -200 300 -300 200 N
+P 2 0 0 10 -200 300 -200 200 N
+P 2 0 0 10 -200 300 0 300 N
+P 2 0 0 10 -200 400 -200 300 N
+P 2 0 0 10 0 -500 -600 -500 N
+P 2 0 0 10 0 -300 0 -500 N
+P 2 0 0 10 0 -300 200 -300 N
+P 2 0 0 10 0 -100 0 0 N
+P 2 0 0 10 0 0 0 100 N
+P 2 0 0 10 0 100 100 0 N
+P 2 0 0 10 0 300 0 500 N
+P 2 0 0 10 0 300 200 300 N
+P 2 0 0 10 0 500 -600 500 N
+P 2 0 0 10 100 -100 70 -130 N
+P 2 0 0 10 100 0 0 -100 N
+P 2 0 0 10 100 0 500 0 N
+P 2 0 0 10 100 100 100 -100 N
+P 2 0 0 10 100 100 130 130 N
+P 2 0 0 10 200 -400 200 -300 N
+P 2 0 0 10 200 -300 200 -200 N
+P 2 0 0 10 200 -200 300 -300 N
+P 2 0 0 10 200 200 200 300 N
+P 2 0 0 10 200 300 200 400 N
+P 2 0 0 10 200 400 300 300 N
+P 2 0 0 10 300 -300 200 -400 N
+P 2 0 0 10 300 -300 300 -400 N
+P 2 0 0 10 300 -300 500 -300 N
+P 2 0 0 10 300 -200 300 -300 N
+P 2 0 0 10 300 300 200 200 N
+P 2 0 0 10 300 300 300 200 N
+P 2 0 0 10 300 300 500 300 N
+P 2 0 0 10 300 400 300 300 N
+P 2 0 0 10 500 0 500 -300 N
+P 2 0 0 10 500 0 600 0 N
+P 2 0 0 10 500 300 500 0 N
+P 2 0 0 10 600 -600 600 600 N
+P 2 0 0 10 600 600 -600 600 N
+P 3 0 0 10 -300 -200 -300 -400 -200 -300 F
+P 3 0 0 10 -300 400 -300 200 -200 300 F
+P 3 0 0 10 0 100 0 -100 100 0 F
+P 3 0 0 10 200 -200 200 -400 300 -300 F
+P 3 0 0 10 200 400 200 200 300 300 F
+P 2 0 1 10 0 -500 600 -500 N
+P 2 0 1 10 0 500 600 500 N
+X ~ 1 -700 500 100 R 40 40 0 0 B
+X ~ 2 -700 0 100 R 40 40 0 0 W
+X ~ 3 -700 -500 100 R 40 40 0 0 B
+X ~ 4 700 -500 100 L 40 40 0 0 B
+X ~ 5 700 0 100 L 40 40 0 0 W
+X ~ 6 700 500 100 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_VBUS-power
+#
+DEF fpga-play-rescue_VBUS-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_VBUS-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VBUS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_VCC-power
+#
+DEF fpga-play-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_VCC-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_VDD-power
+#
+DEF fpga-play-rescue_VDD-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "fpga-play-rescue_VDD-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_W25Q32JVSSIQ-fpga-play
+#
+DEF fpga-play-rescue_W25Q32JVSSIQ-fpga-play U 0 40 Y Y 1 L N
+F0 "U" -491 431 50 H V L BNN
+F1 "fpga-play-rescue_W25Q32JVSSIQ-fpga-play" -491 -481 50 H V L BNN
+F2 "SOIC127P790X216-8N" -200 0 50 H I L BNN
+F3 "Winbond" 0 0 50 H I L BNN
+DRAW
+S -500 400 300 -300 0 0 0 f
+X ~CS~ 1 -700 300 200 R 40 40 0 0 I
+X DO(IO1) 2 -700 0 200 R 40 40 0 0 B
+X ~WP(IO2)~ 3 -700 -100 200 R 40 40 0 0 B
+X GND 4 500 -200 200 L 40 40 0 0 W
+X DI(IO0) 5 -700 100 200 R 40 40 0 0 B
+X CLK 6 -700 200 200 R 40 40 0 0 I C
+X ~HOLD/!RST(IO3)~ 7 -700 -200 200 R 40 40 0 0 B
+X VCC 8 500 300 200 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# fpga-play-rescue_fpga_silk-fpga-play
+#
+DEF fpga-play-rescue_fpga_silk-fpga-play S 0 0 N N 1 F N
+F0 "S" 0 0 50 H V C CNN
+F1 "fpga-play-rescue_fpga_silk-fpga-play" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+# fpga-play_AP7312-1233W6-7
+#
+DEF fpga-play_AP7312-1233W6-7 U 0 40 Y Y 1 F N
+F0 "U" 0 500 50 H V C CNN
+F1 "fpga-play_AP7312-1233W6-7" 0 400 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 200 200 -500 0 1 0 f
+X OUT2 1 300 -200 100 L 50 50 1 1 w
+X GND 2 300 -400 100 L 50 50 1 1 W
+X EN2 3 -400 -400 100 R 50 50 1 1 I
+X EN1 4 -400 -200 100 R 50 50 1 1 I
+X IN 5 -400 100 100 R 50 50 1 1 W
+X OUT1 6 300 100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# fpga-play_AP7312-1828W6-7
+#
+DEF fpga-play_AP7312-1828W6-7 U 0 40 Y Y 1 F N
+F0 "U" 0 600 50 H V C CNN
+F1 "fpga-play_AP7312-1828W6-7" 0 500 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 300 200 -400 0 1 0 f
+X OUT2 1 300 -100 100 L 50 50 1 1 w
+X GND 2 300 -300 100 L 50 50 1 1 W
+X EN2 3 -400 -300 100 R 50 50 1 1 I
+X EN1 4 -400 -100 100 R 50 50 1 1 I
+X IN 5 -400 200 100 R 50 50 1 1 W
+X OUT1 6 300 200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# fpga-play_logo
+#
+DEF fpga-play_logo G 0 40 Y Y 1 F N
+F0 "G" 0 0 50 H I C CNN
+F1 "fpga-play_logo" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 EL Italic 0 C C
+ENDDRAW
+ENDDEF
+#
+#End Library
